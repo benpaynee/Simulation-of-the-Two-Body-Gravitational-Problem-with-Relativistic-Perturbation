@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Spyder / IDE
+.spyproject/
+
+# Generated plots and animations
+*.png
+*.jpg
+*.svg
+*.gif
+*.mp4
+
+# Output directories
+plots/
+outputs/
