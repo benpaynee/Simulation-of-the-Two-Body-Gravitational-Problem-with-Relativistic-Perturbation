@@ -15,37 +15,45 @@ This repository contains a Python implementation of the classical two-body gravi
 ---
 
 ## Repository Structure
-Simulation-of-the-Two-Body-Gravitational-Problem
+
+Simulation-of-the-Two-Body-Gravitational-Problem/
+│
+
+├── main.py                       # Primary simulation entry point
+
+├── integrator.py                 # Velocity–Verlet time integrator
+
+├── orbital_elements.py           # Orbital element calculations
+
+│
+├── analytic_kepler_solver.py     # Analytical Kepler orbit solutions
+
+├── numerical_vs_analytical.py    # Numerical vs analytical orbit comparison
+
+├── newtonian_vs_relativistic.py  # Newtonian vs relativistic dynamics comparison
 
 │
 
-├── main.py # Simulation entry point
+├── configs/                      # Example simulation input files
 
-├── integrator.py # Velocity-Verlet integrator
+│   ├── elliptic_ex.json
 
-├── orbital_elements.py # Orbital element calculations
+│   ├── hyperbolic_ex.json
 
-├── gravity_models.py # Gravitational acceleration models
-
-│
-
-├── configs/ # Example simulation inputs
-
-│ ├── elliptic_ex.json
-
-│ ├── hyperbolic_ex.json
-
-│ └── parabolic_ex.json
+│   └── parabolic_ex.json
 
 │
 
-├── docs/ # LaTeX write-up and curated figures
+├── docs/                         # Documentation and write-up
 
-│ └── Write_Up.pdf
+│   └── Write_Up.pdf
+
+│
 
 ├── .gitignore
 
 └── README.md
+
 
 
 Generated plots and animations are intentionally excluded from version control.
