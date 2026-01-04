@@ -31,7 +31,7 @@ Simulation-of-the-Two-Body-Gravitational-Problem/
 
 ├── numerical_vs_analytical.py    # Numerical vs analytical orbit comparison
 
-├── newtonian_vs_relativistic.py  # Newtonian vs relativistic dynamics comparison
+├── newtonian_vs_relativistic.py  # Newtonian vs relativistic comparison
 
 │
 
