@@ -15,7 +15,8 @@ This repository contains a Python implementation of the classical two-body gravi
 ---
 
 ## Repository Structure
-Simulation-of-the-Two-Body-Gravitational-Problem/
+Simulation-of-the-Two-Body-Gravitational-Problem
+
 │
 
 ├── main.py # Simulation entry point
