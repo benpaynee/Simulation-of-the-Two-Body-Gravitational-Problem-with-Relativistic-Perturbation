@@ -1,0 +1,27 @@
+{
+  "masses": {
+    "m1": 2.0,
+    "m2": 1.0
+  },
+
+  "radii": {
+    "R1": 0.05,
+    "R2": 0.05
+  },
+
+  "initial_conditions": {
+    "r_rel": [1.0, 0.0, 0.0],
+    "v_rel": [0.0, 0.8, 0.0]
+  },
+
+  "gravity": {
+    "use_relativistic": false,
+    "alpha": 0.001
+  },
+
+  "time": {
+    "dt": 0.001,
+    "t_max": 40.0
+  }
+}
+
