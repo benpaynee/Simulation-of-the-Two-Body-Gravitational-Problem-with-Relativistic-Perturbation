@@ -41,6 +41,8 @@ Simulation-of-the-Two-Body-Gravitational-Problem
 
 ├── docs/ # LaTeX write-up and curated figures
 
+│ └── Write_Up.pdf
+
 ├── .gitignore
 
 └── README.md
