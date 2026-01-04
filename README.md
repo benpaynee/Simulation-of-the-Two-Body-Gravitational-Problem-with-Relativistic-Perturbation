@@ -31,9 +31,11 @@ Simulation-of-the-Two-Body-Gravitational-Problem
 
 ├── configs/ # Example simulation inputs
 
-│ ├── example_newtonian.json
+│ ├── elliptic_ex.json
 
-│ └── example_relativistic.json
+│ ├── hyperbolic_ex.json
+
+│ └── parabolic_ex.json
 
 │
 
